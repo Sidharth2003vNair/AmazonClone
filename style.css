@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+}
+.navbar {
+    background-color: #0a1829;
+  }
+  .navbar-brand img {
+    height: 40px;
+  }
+  .search-bar {
+    flex: 1;
+  }
+  .search-input {
+    width: 100%;
+    border: none;
+    padding: 5px;
+  }
+  .nav-link {
+    color: #fff;
+  }
+  .nav-link:hover {
+    color:black;
+  }
+  .nav-item:hover {
+    color:black;
+  }
+  .nav-item{
+    font-weight:normal;
+    font-size:small;
+    font-weight: bold;
+    background-color: #fff;
+  }
+  .cart-icon {
+    font-size:medium;
+    color: #fff;
+  }
+  .material-symbols-outlined{
+    background-color: orange;
+    margin-left: -30px;
+    padding: 7px 10px 10px 10px;
+  }
+  .navbar-location {
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .location-icon {
+    font-size: 1.5rem;
+    margin-right: 5px;
+    color: #febd69;
+  }
+  
+  .location-text {
+    line-height: 1;
+  }
+  
+  .small-text {
+    font-size: 0.75rem;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .panel-ops p{
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  .panel-ops{
+    width:70%;
+    font-size: 0.85rem;
+  }
+  
+  .panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  
+  .banner img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    max-height: 75vh; 
+    object-fit: contain; 
+  }
+  .hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+.shop-categories-banner {
+  background-color: #d3f7d3; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.shop-categories-banner h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+
+.card-img-top {
+    border-radius: 8px;
+    height: 180px; 
+    object-fit: cover;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+/* General Styling for Section */
+.container {
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Card Styling */
+.card {
+  border: none; /* Remove card border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+/* Image Styling */
+.card img {
+  border-radius: 20px; /* Rounded image corners */
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+/* Card Title */
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Dark text */
+  margin-bottom: 15px;
+}
+
+/* Category Text */
+.card p {
+  font-size: 14px;
+  color: #555; /* Subtle text color */
+  margin: 0; /* Remove extra margins */
+}
+
+/* See All Offers/Deals Link */
+.btn-link {
+  text-decoration: none;
+  font-size: 14px;
+  background-color: yellow;
+  font-weight: bolder;
+  color: black; /* Amazon-style blue link */
+}
+
+.btn-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Sign In Button */
+.btn-warning {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px; /* Rounded button */
+}
+
+/* Grid Adjustments for Images and Text */
+.row .col-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row .col-6 p {
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: center;
+  color: #333; /* Text color */
+}
+
+/* Small Screens */
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 16px;
+  }
+
+  .btn-link {
+    font-size: 12px;
+  }
+
+  .btn-warning {
+    font-size: 14px;
+  }
+}
+
+/* Footer Section */
+footer {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer h5 {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+footer .form-select {
+  border: 1px solid #232F3E;
+}
